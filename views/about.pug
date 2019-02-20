@@ -1,0 +1,47 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Alan Lucas Machado
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | I have six years of experience with Java but i decided to do a career changes, after some time studying JavaScript with Node and Express i've received a offer to work for OSF GLOBAL in Fortaleza  
+            | Now i've been working with JavaScript and Salesforce, developing and maintaining e-commerce sites for companies from diverse countries.
+            | Since i'm taking a lot of expertise with Javascript due to my current position, i decided to study Blockchain development and Smart Contratcs with Solidity 
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li Express
+          li Solidity
+          li Socketio
+          li JavaScript
+          li Trufflejs
+          li Blockchain
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 55 (85) 99648-7104
+          li alanlm.1901@gmail.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='' target= '_blank') LinkedIn
+        a.button.expanded(href='https://github.com/AlanMachado?tab=repositories' target= '_blank') GitHub
+        a.button.expanded(href='' target= '_blank') Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

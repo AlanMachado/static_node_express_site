@@ -1,0 +1,47 @@
+{
+    "projects": [{
+        "id": 1,
+        "project_name": "Api Requests",
+        "description": "This project shows how to work with ajax, and jquery events",
+        "technologies": ["JavaScript", "HTML", "JQuery", "Ajax", "randomuser.me"],
+        "live_link": "",
+        "github": "https://github.com/AlanMachado/api_request",
+        "image_urls": ["images/api_request.png", "images/api_request2.png"]
+    },
+    {
+        "id": 2,
+        "project_name": "Forms Validations",
+        "description": "This project shows how to work with jquery to validate your forms",
+        "technologies": ["JavaScript", "HTML", "JQuery", "JQuery Validation Plugin"],
+        "live_link": "",
+        "github": "https://github.com/AlanMachado/form_validatin",
+        "image_urls": ["images/forms1.png", "images/forms2.png"]
+    },
+    {
+        "id": 3,
+        "project_name": "List Students",
+        "description": "This project shows how to create a list with pagination",
+        "technologies": ["JavaScript", "HTML"],
+        "live_link": "",
+        "github": "https://github.com/AlanMachado/list_paginations",
+        "image_urls": ["images/list_students.png", "images/list_students_2.png"]
+    },
+    {
+        "id": 4,
+        "project_name": "Random Quotes",
+        "description": "This project shows how to use Math lib",
+        "technologies": ["JavaScript", "HTML"],
+        "live_link": "",
+        "github": "https://github.com/AlanMachado/random_quote",
+        "image_urls": ["images/random1.png", "images/random2.png"]
+    },
+    {
+        "id": 5,
+        "project_name": "Phrase Game",
+        "description": "This project shows how to use JQuery to create a simple game",
+        "technologies": ["JavaScript", "HTML"],
+        "live_link": "",
+        "github": "https://github.com/AlanMachado/game_show_app",
+        "image_urls": ["images/phrase_game.png", "images/phrase_game_in.png"]
+    }]
+}
